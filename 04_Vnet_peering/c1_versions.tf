@@ -1,8 +1,8 @@
 # Terraform Setting Block
 terraform {
   required_providers {
-      azurerm = {
-      source = "hashicorp/azurerm"
+    azurerm = {
+      source  = "hashicorp/azurerm"
       version = ">=2.9"
     }
   }
@@ -10,7 +10,7 @@ terraform {
 
 
 provider "azurerm" {
-    features {}
+  features {}
 }
 
 
